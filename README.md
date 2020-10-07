@@ -1,6 +1,6 @@
 # Bilal Practice Task 
 
-This is my practice task. I am editing the read me to inform users to download the external data file, data.txt, and to store it in analysis. I have not edited global_config because the file is sore in analysis and not in a subdirectory. I was contemplating creating a new folder, raw, to store the file, but I decided against that.
+This is my practice task. I am editing the read me to inform users to download the external data file, data.txt, and to store it in analysis. I have not edited global_config because the file is stored directly in analysis and not in a subdirectory. I was contemplating creating a new folder, raw, to store the file, but I decided against that.
 
 ## License
 
