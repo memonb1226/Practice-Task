@@ -8,34 +8,20 @@ as it can be edited after state_of_repo.log finishes running
 ===================================
 Last commit:
 
-commit 7fa253e956ae3606682e6cb7aed845c56fc33f48
+commit 24aa841faf91242a5e4de667f9b1206ee863347a
 Author: Bilal Memon <bilal_memon@brown.edu>
-Date:   Tue Oct 6 19:58:34 2020 -0400
+Date:   Tue Oct 6 21:17:58 2020 -0400
 
-    execute analysis/source/prepare_data/create_data.do
+    Modify read me
 
 
 Files changed since last commit:
 
 
-.gitignore
-README.md
-analysis/release/descriptive/plot.eps
-analysis/release/descriptive/sconscript_descriptive.log
+analysis/SConstruct
+analysis/config_global.yaml
 analysis/release/sconstruct.log
 analysis/release/state_of_repo.log
-analysis/source/descriptive/descriptive.py
-paper_slides/input/plot.eps
-paper_slides/release/paper/ondeck.pdf
-paper_slides/release/paper/online_appendix.pdf
-paper_slides/release/paper/paper.pdf
-paper_slides/release/paper/sconscript.log
-paper_slides/release/paper/text.pdf
-paper_slides/release/sconstruct.log
-paper_slides/release/state_of_input.log
-paper_slides/release/state_of_repo.log
-paper_slides/release/talk/sconscript.log
-paper_slides/release/talk/slides.pdf
 
 ===================================
 
@@ -49,20 +35,32 @@ paper_slides/release/talk/slides.pdf
    modified on: 06 Oct 2020 19:47:06
    size of file: 449
 ./state_of_repo.log:
-   modified on: 06 Oct 2020 21:12:56
-   size of file: 1102
+   modified on: 06 Oct 2020 23:06:43
+   size of file: 534
 ./SConstruct:
-   modified on: 06 Oct 2020 19:56:45
-   size of file: 1874
+   modified on: 06 Oct 2020 21:56:06
+   size of file: 1953
 ./config_global.yaml:
-   modified on: 06 Oct 2020 19:47:06
-   size of file: 1264
+   modified on: 06 Oct 2020 21:39:02
+   size of file: 1362
 ./data.txt:
    modified on: 06 Oct 2020 20:03:21
    size of file: 1988897
 ./sconstruct.log:
-   modified on: 06 Oct 2020 21:12:56
-   size of file: 199
+   modified on: 06 Oct 2020 23:06:43
+   size of file: 278
+./source/plot/plot.py:
+   modified on: 06 Oct 2020 23:06:39
+   size of file: 507
+./source/plot/SConscript:
+   modified on: 06 Oct 2020 22:02:32
+   size of file: 420
+./source/draw_data/draw_data.R:
+   modified on: 06 Oct 2020 21:55:24
+   size of file: 343
+./source/draw_data/SConscript:
+   modified on: 06 Oct 2020 21:41:59
+   size of file: 272
 ./source/prepare_data/create_data.m:
    modified on: 06 Oct 2020 19:47:06
    size of file: 202
@@ -88,11 +86,17 @@ paper_slides/release/talk/slides.pdf
    modified on: 06 Oct 2020 19:47:06
    size of file: 501
 ./release/state_of_repo.log:
-   modified on: 06 Oct 2020 21:06:30
-   size of file: 3093
+   modified on: 06 Oct 2020 23:06:11
+   size of file: 3848
 ./release/sconstruct.log:
-   modified on: 06 Oct 2020 21:06:30
-   size of file: 686
+   modified on: 06 Oct 2020 23:06:11
+   size of file: 603
+./release/plot/sconscript_descriptive.log:
+   modified on: 06 Oct 2020 23:06:43
+   size of file: 96
+./release/plot/plot.eps:
+   modified on: 06 Oct 2020 23:06:43
+   size of file: 188151
 ./release/descriptive/sconscript_descriptive.log:
    modified on: 06 Oct 2020 21:06:30
    size of file: 96
@@ -105,6 +109,18 @@ paper_slides/release/talk/slides.pdf
 ./release/lg/data.txt:
    modified on: 06 Oct 2020 19:53:38
    size of file: 1988897
+./build/plot/sconscript_descriptive.log:
+   modified on: 06 Oct 2020 23:06:43
+   size of file: 96
+./build/plot/plot.eps:
+   modified on: 06 Oct 2020 23:06:43
+   size of file: 188151
+./build/draw_data/data.csv:
+   modified on: 06 Oct 2020 21:55:30
+   size of file: 363000
+./build/draw_data/sconscript_draw_data.log:
+   modified on: 06 Oct 2020 21:55:30
+   size of file: 250
 ./build/prepare_data/sconscript_create_data.log:
    modified on: 06 Oct 2020 19:57:52
    size of file: 1475
